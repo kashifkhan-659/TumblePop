@@ -1,2 +1,18 @@
 # TumblePop
 A game built using the concepts of c++ and sfml graphics Library.
+Requirements For Compiling (Only need to be run once):
+
+	1) Install GNU G++ Compiler:
+	sudo apt-get install g++
+
+	2) Install SFML:
+	sudo apt-get install libsfml-dev
+
+Compilation Commands (In Order):
+	
+	1) g++ -c tumblepop.cpp
+	2) g++ tumblepop.o -o sfml-app -lsfml-graphics -lsfml-audio -lsfml-window -lsfml-system
+
+Running The Game:
+	
+	3) ./sfml-app
